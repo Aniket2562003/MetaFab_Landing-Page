@@ -1,0 +1,484 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    
+background-color: rgb(250, 74, 74);
+    background-image: url("./Images/bg.17d0d2a84575ca3536d3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Navbar-elements-1 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    cursor: pointer;
+   
+    
+    
+    
+}
+
+.Navbar {
+    
+    background-color: rgb(4, 4, 5);
+    margin: 0px;
+    display: flex;
+    padding: 18px;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-bottom-width: 1px;
+    opacity: 0.9;
+    
+    top: 0;
+    position: sticky;
+    z-index: 100;
+
+
+}
+
+.Navbar-elements-1 p {
+    
+    
+    font-size: 16px;
+    color: rgba(238, 239, 255, 0.7);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    margin-right: 25px;
+
+}
+
+
+.Navimg {
+    width: 25px;
+    height: 25px;
+    color: rgba(238, 239, 255, 0.7);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.logo {width: 150px;
+    border-radius: 2px;
+    border: solid white;
+    height: 45px;
+    /* z-index: 1; 
+    height: 28px;
+    width: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Navbar-elements-2 {
+    
+    z-index: 14;
+    cursor: pointer;
+    z-index: 2;
+    width: 600px;
+   
+  
+}
+
+
+
+.Login {
+    text-decoration: none;
+    color: rgba(238, 239, 255, 0.7);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    
+}
+
+
+.Navbar-elements-3 {
+  
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 2rem;
+   /* outline: 1px solid red; */
+    
+}
+
+.button {
+   
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(90deg, rgb(14, 13, 13), rgb(33, 31, 31));
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: medium;
+    border: 3px solid white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 1px;
+    left: 1px;
+    bottom: 1px;
+    top: 1px;
+    display: flex;
+    align-items: stretch;
+    cursor: pointer;
+    justify-content: flex-end; */
+}
+
+.button__icon {
+    --size: 12px;
+    margin-left: 8px;
+    width: var(--size);
+    height: var(--size);
+}
+
+.Frontpage1{
+    margin-top: 60px;
+ 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Intro {
+    display: flex;
+    justify-content: center;
+}
+
+.Intro p {
+    color: white;
+    line-height: 54px;
+    font-size: 54px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    max-width: 700px;
+}
+
+
+.Intro2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.Intro2 p {
+    font-size: 18px;
+    color: white;
+    max-width: 700px;
+    font-family: 'Inter', sans-serif;
+    line-height: 26px;
+    text-align: center;
+}
+
+.Buttons{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+    height: 60px;
+    
+}
+
+
+.Frontpage-img {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+    margin: 0;
+
+}
+
+.Metafab-img {
+    margin: 0;
+    height: 600px;
+    margin-top: 70px;
+    width: 804px;
+}
+
+.Frontpage2 {
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 15px 0px 0px;
+}
+
+.Intro3 {
+    display: flex;
+    justify-content: center;
+}
+
+.Intro3 p {
+
+    color: white;
+    line-height: 40px;
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    max-width: 700px;
+
+}
+
+.Intro4 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Intro4 p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    line-height: 26px;
+    max-width: 700px;
+}
+
+.Grid{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.P {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 230px 230px 230px 230px;
+}
+
+.i {
+    height: 230px;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    opacity: .8;
+    background-color: rgb(19, 19, 19);
+
+}
+
+
+
+
+.m {
+    display: flex;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+}
+
+.j {
+    border-radius: 5px;
+    width: 60px;
+    margin-right: 15px;
+    height: 60px;
+    background-color: rgba(30, 27, 37, 0.8);
+    ;
+
+}
+
+.j img {
+    width: 60px;
+
+}
+
+.k p {
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 200px;
+}
+
+.n {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.n p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    line-height: 20px;
+
+}
+
+.o {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.end {
+    font-size: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.r {
+    display: flex;
+    justify-content: center;
+}
+
+.r p {
+
+    font-size: 14px;
+}
+
+.F3 {
+    display: block;
+}
+.Frontpage3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+   
+}
+.GameArea{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.GameArea1{
+  width: 960px;
+  margin-top: 60px;
+  height: 640px;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 8px;
+  border-width: 1px;
+  border-radius: 10px;
+  display: flex;
+  align-items:center;
+ justify-content: center;
+
+}
+.Frontpage4{
+margin-top: 60px;
+display: flex;
+flex-direction: column;
+}
+.InfoButton{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.Shop{
+    margin-top: 55px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.Market{
+    
+    width: 30%;
+    padding: 40px 20px 100px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(30, 27, 37, 0.67), rgb(0, 0, 0));
+}
+.M1{
+   
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    
+    
+    
+    
+}
+.M2{ margin-top: 20px;
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    color: rgb(110, 107, 107);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+  
+    
+}
+
+
+.BuildingGame{
+    width: 30%;
+    padding:  40px 20px 100px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(30, 27, 37, 0.67), rgb(0, 0, 0));
+  
+}
+.Frontpage5{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ViewButton{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+   
+}
+.Chains{
+    display: flex;
+    justify-content: center;
+}
+.chains{
+   width: 90%;
+}
+.footer{
+   
+    padding-bottom:50px ;
+    bottom: 0;
+    background-color: rgb(238, 81, 14);
+}
+.blockchain{
+    margin-top: 90px;
+    
+    
+}
+.blockchain p{
+    width: 500px;
+    font-size: 40px;
+}
+.footerButton{
+    margin-top: 30px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.p {
+    display: flex;
+    
+}
